@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#OpenBUGS install based on https://github.com/mavelli/rocker-bayesian/blob/28cc0a8635ce360161e882a8c8a92c278f2b3ffc/Dockerfile
+wget -nd -P /tmp http://pj.freefaculty.org/Debian/squeeze/amd64/openbugs_3.2.2-1_amd64.deb
+dpkg -i /tmp/openbugs_3.2.2-1_amd64.deb && rm /tmp/openbugs_3.2.2-1_amd64.deb 
