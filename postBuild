@@ -17,7 +17,7 @@ cd openbugs-3.2.3
 make && make check && make install
 
 # Attempt 3
-# based on https://github.com/jsta/openbugs
+# based on https://github.com/jsta/openbugs and I added `glibc-devel` to apt.txt based on http://www.openbugs.net/w/Downloads
 git clone https://github.com/jsta/openbugs.git
 cd openbugs
 ./configure
